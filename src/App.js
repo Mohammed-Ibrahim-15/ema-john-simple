@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header';
+import Shop from './components/Shop/Shop';
 
 function App() {
   return (
     <div className="App">
-      <h1>This is My Ema John Website</h1>
+      <Header></Header>
+      <Shop></Shop>
     </div>
   );
 }
